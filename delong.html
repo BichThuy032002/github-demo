@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./delong.css">
+</head>
+<body>
+    <div class="content">
+    <p align="center"><img src="./media/img/DeLong.jpg"></p>
+    <h2>Travel Expense Report</h2>
+    <hr>
+    <form action="">
+        <div class="form-row">
+            <label for="firstname"> 1) First Name: </label>
+            <input type="text">
+            <span>
+                <label for="lastname"> Last Name: </label>
+                <input type="text"> 
+            </span>
+        </div>
+        <div class="form-row">
+            <label for=""> 2) Social Security Number: </label>
+            <input type="text">
+        </div>
+        <div class="form-row">
+            <label for=""> 3) Department: </label>
+            <select name="" id="">
+                <option value="1" selected disabled hidden>Accounting</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <label for=""> 4) Describe the purpose of your trip: </label>
+        </div>
+        <div class="form-row">
+            <textarea name="" id="" cols="70" rows="5"></textarea>
+        </div>
+        
+        <div class="form-row">
+            <label for=""> 5) Itermize your travel expenses: </label>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td><input type="text" value="mm/dd/yy"></td>
+                    <td><input type="text" ></td>
+                    <td><select name="" id="">
+                        <option value="Meal" selected disabled hidden> Meal</option>
+                    </select></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="mm/dd/yy"></td>
+                    <td><input type="text" ></td>
+                    <td><select name="" id="">
+                        <option value="Meal" selected disabled hidden> Meal</option>
+                    </select></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="mm/dd/yy"></td>
+                    <td><input type="text" ></td>
+                    <td><select name="" id="">
+                        <option value="Meal" selected disabled hidden> Meal</option>
+                    </select></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="mm/dd/yy"></td>
+                    <td><input type="text" ></td>
+                    <td><select name="" id="">
+                        <option value="Meal" selected disabled hidden> Meal</option>
+                    </select></td>
+                    <td><input type="text" ></td>
+                </tr>
+            </table>
+        </div>
+        <div class="form-row">
+            <label for=""> 6) Have you submitted your receipts?</label>
+            <input type="radio" name="yn">Yes
+            <input type="radio" name="yn" > No
+        </div>
+        <div class="form-row">
+            <button id="myBtn" onclick="javascript:alert('Submit')">Submit travel expenses</button>
+            <button type="reset" value="Reset" id="reset">Reset</button>
+            <script>
+document.getElementById(myBtn).click();
+            </script>
+        </div>
+Questtion? Contact Debbie Larson in Accounting (ext 2150).
+
+    </form>
+</div>
+</body>
+</html>

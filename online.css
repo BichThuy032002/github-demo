@@ -1,0 +1,38 @@
+.container{
+    background-color: #CCFFFF;
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1200px;
+    width: 800px;
+    justify-content: center;
+}
+.form-group{
+    margin: 10px;
+    padding: 8px;
+}
+h1{
+    color: red;
+}
+.form--title{
+    font-weight: bold;
+}
+#dong4{
+    width: 500px;
+}
+.form-row{
+    margin: 10px;
+    padding: 10px 10px 0 10px;
+    display: flex;
+}
+.form--title{
+    margin: 10px;
+    padding: 0 10px 10px 0;
+}
+.cancel input{
+    background-image: url(./media/img/Cancel.gif);
+    height: 50px;
+    width: 67px;
+    border: 0px;
+    background-color: #CCFFFF;
+    cursor: pointer;
+}

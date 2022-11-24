@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation Form</title>
+    <link rel="stylesheet" href="./register.css" >
+</head>
+<body>
+   <div class="container">
+   <p align="center"><img src="./media/img/Jackson.gif"></p>
+   <h2>Registration Form</h2>
+   
+<form action="#">
+    <div align="center" class="form--title"> Register your Jackson Electronics product here</div>
+    <div class="form-group">
+    <div class="form-row">
+        <label for="firstname" class="form__label"> First Name: </label>
+        <input type="text" class="form__input">
+        <label for="lastn" class="form-lastname"> Last Name: </label>
+        <input type="text" id="lastname">
+
+    </div> 
+    <div class="form-row">
+        <label for="address1" class="form__label"> Address #1: </label>
+        <input type="text" class="form__input">
+    </div> 
+    <div class="form-row">
+        <label for="address2" class="form__label"> Address #2: </label>
+        <input type="text" class="form__input">
+    </div>
+    <div class="form-row">
+        <label for="city" class="form__label"> City: </label>
+        <input type="text" class="form__input">
+    
+            <label for="state" class="form-state" > State: </label>
+            <input type="text" id="state">
+    
+ 
+            <label for="Zip" class="form-zip"> Zip: </label>
+            <input type="text" id="state">
+        
+    </div>
+    <div class="form-row">
+        <label for="country" class="form__label"> Country: </label>
+        <input type="text" class="form__input" value="United States">
+        </div>
+
+    </div>
+<hr>
+
+<div class="form-row">
+    <label for="product" class="form__label">Product:</label>
+    <select name="product" id="product">
+        <option value="1" selected disabled hidden> ScanMaster</option>
+    </select>
+</div>
+<div class="form-row">
+<label for="date" class="form__label"> Date Purchased:</label>
+<input type="text" class="form__input">
+</div>
+<div class="form-row">
+    <label for="serial" class="form__label"> Serial #:</label>
+    <input type="text" class="form__input">
+</div>
+<div class="form-row">
+<label for="" class="form__label" >Used for: </label>
+<div class="option">
+    <div class="colum">
+<div><input type="radio" name="usefor" >Home</div>
+<div><input type="radio" name="usefor" value="Business" checked> Business</div>
+<div><input type="radio" name="usefor" value="govermment">Govermment</div>  
+</div>
+    <div class="colum">
+        <div class="edu"><input type="radio" name="usefor"  value="Ed">Educational Institution</div>
+    <div><input type="radio" name="usefor" value="Other">Other</div>
+</div>
+</div>
+</div>
+<div class="form-row">
+    <label for="" class="form__label"> System( check all that apply): </label>
+    <div class="option">
+        <div class="colum">
+    <div> <input type="checkbox"> Windows</div>
+    <div><input type="checkbox"> Macintosh</div>
+    </div>
+        <div class="colum">
+            <div><input type="checkbox"> UNIX</div>
+            <div><input type="checkbox"> Others</div>
+    </div>
+    </div>
+    </div>
+<hr>
+<div class="form-group">
+<div class="form-row">
+    <label for="" class="form__label">Comments?:</label>
+    <textarea class="form__input" name="textarea" style="width:100vw;height:100px;"></textarea>
+</div>
+<div class="button">
+    <button id="myBtn" onclick="javascript:alert('Dang ky')">Click to Register</button>
+    <input type="reset" value="Click to cancel" id="reset">
+<script>
+    event.preventDefault();
+      document.getElementById("myBtn").click();
+  </script>
+</div>
+</div>
+
+
+
+
+
+   
+
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+.content{
+    background-color: #008080;
+    color: white;
+   margin: 0 auto;
+   padding: 0 auto;
+   justify-content: center;
+   max-width: 1200px;
+   width: 600px;
+   border-radius: 5px;
+
+
+}
+
+.form-row{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+input{
+    width: 100px;
+}
+.button:hover{
+    background-color: darkgreen;
+}

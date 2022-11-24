@@ -1,0 +1,40 @@
+tr, th, td {
+    border: 2px double rgb(141, 141, 141);
+   padding: 3px 20px;
+}
+
+.form__input{
+    padding: 3px 10px;
+    margin: 10px;
+}
+.form__label{
+    margin:  10px 10px;
+    padding: 10px 3px;
+}
+.form-row{
+    margin: 5px;
+    padding: 5px;
+}
+hr{
+    background-color: #633100;
+    height: 2px;
+    font-weight: bold;
+    width: 100%;
+}
+.content{
+    background-color: #CCFFFF;
+   margin: 0 auto;
+   padding: 0 auto;
+   justify-content: center;
+   max-width: 1200px;
+   border-radius: 5px;
+width: 800px;
+
+}
+#myBtn:hover{
+    background: linear-gradient(45deg, rgb(43, 231, 96), rgb(236, 152, 218), rgb(245, 146, 146));  
+}
+#reset:hover{
+    background: linear-gradient(45deg, rgb(6, 57, 19), rgb(222, 4, 4), rgb(33, 5, 70));  
+    color: bisque;
+}
